@@ -158,10 +158,10 @@ export const renderCourse = (document, course, courseId) => {
           <div>
             NCS ID&nbsp;:&nbsp;<b>{studentId}</b>
           </div>
-          <div>
+          {/* <div>
             Date of Birth&nbsp;:&nbsp;
             <b>{format(recipientDOB, "DD MMM YYYY")}</b>
-          </div>
+          </div> */}
           <div>
             Date of Admission&nbsp;:&nbsp;
             <b>{format(admissionDate, "DD MMM YYYY")}</b>
